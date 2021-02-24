@@ -1,0 +1,248 @@
+/* CSS Document */
+html {
+    height: 100%;
+}
+
+#stream {
+    height:80%;
+    margin:80px 0px 0px 0px;
+}
+
+#buttonContainer {
+    position: absolute;
+    top: 20px;
+    left: 30%;
+    z-index: 1;
+    width: 42%;
+    min-width: 443px;
+}
+
+.sliderLabel {
+    left: 0%;
+    position: relative;
+    top: 25px;
+    font-size: .8em;
+}
+
+.playerError {
+    background-color: #ffbfbf;
+    color: red;
+}
+
+.opacity80{
+    opacity: 80%;
+}
+
+#latencySlider {
+    margin: 20px 15px 20px 15px;
+    cursor:pointer;
+}
+
+.ui-slider-handle {
+    cursor:ew-resize !important;
+}
+
+#latencyValue {
+    border: 0;
+    color: black;
+    font-weight: bold;
+    width: 50px;
+    float: right;
+    margin: 0px 15px 0px 0px;
+}
+
+#menuToggle {
+    margin: 6px 10px 0px 0px;
+    z-index: 11;
+    position: absolute;
+    right: 0px;
+    cursor:pointer;
+}
+#menuPopup {
+    background-color: black;
+    border:3px solid #ffffff;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    width:300px;
+    z-index:10;
+    font-family: Arial, Helvetica, sans-serif;
+    display:none;
+
+
+}
+
+a {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a:link {
+    text-decoration: none;
+}
+  
+  a:visited {
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: none;
+  }
+  
+  a:active {
+    text-decoration: none;
+  }
+
+ul {
+    list-style: none;
+    padding:0px;
+    margin:0px;
+
+}
+
+li.spacer {
+    height:17px;
+}
+
+ul li {
+    font-size: 1em;
+    padding: 10px 10px;
+    border-bottom: 1px solid white;
+
+
+}
+
+ul a {
+    color:white;
+
+}
+span {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:1.5em;
+
+}
+.sldp_message {
+	display:none !important;
+}
+
+.sldp_message_wrp {
+    display:none !important;
+}
+.btn-current, button.ui-button:focus, button.ui-button:active {
+    background-color: #007fff;
+    color: white;
+    border-color: #007fff;
+}
+
+#audioSelector {
+    margin: 0px 0px 0px 15px;
+    display: inline;
+    float: right;
+}
+#slider {
+    width:150px;
+    width: 150px;
+    position: absolute;
+    left: 150px;
+    top: 10px;
+}
+
+#audioStream {
+    display: inline;
+    float: right;
+    margin: 0px 40px 0px 0px
+} 
+
+
+button.ui-button:hover {
+    background-color: #dddddd;
+}
+
+body {
+    margin-top:20px;
+}
+
+div.center {
+    text-align:center;
+}
+
+div#tools  {
+    position:absolute;
+    top:20px;
+    right: 10px;
+}
+
+body {
+background-color:#000000;
+color:white;
+
+}
+
+label, h3, h2 {
+color:#ffffff;
+
+}
+
+.ui-button {
+ margin:0px 5px;
+}
+
+.wrapper{ 
+    width: 500px;
+    padding: 20px;
+    margin:auto;
+}
+
+#projectChooser {
+    position:absolute;
+    top:20px;
+    left: 270px;
+}
+
+select {
+    font-size:1em;
+    height:34px;
+    border-radius:3px;
+
+}
+
+#vir-img {
+    width: 500px;
+    margin: 90px 0px 60px 0px;
+}
+
+#vir-sml-img {
+    width: 500px;
+    margin: 0px 0px 60px 0px;
+    position: absolute;
+    top: 22px;
+    left: 23px;
+    width: 190px;
+}
+
+#vir-bg {
+    /* Set rules to fill background */
+    min-height: 100%;
+    min-width: 1024px;
+      
+    /* Set up proportionate scaling */
+    height: auto;
+      
+    /* Set up positioning */
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    z-index: -1;
+
+    width:2990px;
+  }
+  
+  @media screen and (max-width: 1024px) { /* Specific to this particular image */
+    #vir-bg {
+      left: 50%;
+      margin-left: -512px;   /* 50% */
+    }
+  }

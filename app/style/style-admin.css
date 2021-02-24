@@ -1,0 +1,53 @@
+/* CSS Document */
+
+body {
+    margin-top:20px;
+}
+
+div.center {
+    text-align:center;
+}
+
+#logout {
+    position: absolute;
+    margin-left: 400px;	
+}
+
+body {
+
+}
+
+.ui-button {                                                                                                                                                                 p
+ margin:0px 5px;
+}
+
+.wrapper{ 
+    width: 500px;
+    padding: 20px;
+    margin:auto;
+    font-color:white;
+}
+
+
+.wrapper-wide{ 
+    width: 800px;
+    padding: 20px;
+    margin:auto;
+    font-color:white;
+}
+
+input[type=checkbox] {
+    display:block;
+    width:20px;
+    height:20px;
+    margin:0px;
+}
+
+.small-header {
+    width:30px;
+}
+
+input[type=checkbox].centered {
+    margin:0px auto;
+}
+
